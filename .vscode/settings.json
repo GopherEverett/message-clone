@@ -1,3 +1,4 @@
 {
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/Users/johnjacobs/.local/share/virtualenvs/message-clone-nh_zs3LQ/bin/python"
 }

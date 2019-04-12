@@ -2,7 +2,7 @@ from django.db import models
 
 # Create Post Models here.
 class Post(models.Model):
-    created_at = models.DateField(default=datetime.now(), blank=True)
+    created_at = models.DateField()
     title = models.CharField(max_length=250)
     picture = models.CharField(max_length=400)
     content = models.CharField(max_length=1000)
@@ -13,7 +13,7 @@ class Post(models.Model):
         return self.title
 
 class Comment(models.Model):
-    created_at = models.DateField(default=datetime.now(), blank=True)
+    created_at = models.DateField()
     content = models.CharField(max_length=400)
     vote_total = models.IntegerField(default=0) 
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
