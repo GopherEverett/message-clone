@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'message_clone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sample_database',
+        'NAME': 'message_database',
         'USER': 'sample',
         'PASSWORD': 'sample',
         'HOST': 'localhost'
