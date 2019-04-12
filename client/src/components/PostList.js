@@ -5,7 +5,7 @@ export default class PostList extends Component {
     render() {
         return (
             <div>
-                
+                test
             </div>
         )
     }
